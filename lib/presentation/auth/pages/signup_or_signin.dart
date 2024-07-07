@@ -5,6 +5,8 @@ import 'package:spotifycleanarchitecture/common/widgets/button/basic_app_button.
 import 'package:spotifycleanarchitecture/core/configs/assets/app_images.dart';
 import 'package:spotifycleanarchitecture/core/configs/assets/app_vector.dart';
 import 'package:spotifycleanarchitecture/core/configs/theme/app_colors.dart';
+import 'package:spotifycleanarchitecture/presentation/auth/pages/signin.dart';
+import 'package:spotifycleanarchitecture/presentation/auth/pages/signup.dart';
 
 import '../../../common/widgets/appbar/app_bar.dart';
 
@@ -77,7 +79,15 @@ class SignupOrSigninPage extends StatelessWidget {
                         flex: 1,
                         child: BasicAppButton(
                           title: "Register",
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (BuildContext context) =>
+                                    const SignupPage(),
+                              ),
+                            );
+                          },
                         ),
                       ),
                       const SizedBox(
@@ -86,7 +96,15 @@ class SignupOrSigninPage extends StatelessWidget {
                       Expanded(
                         flex: 1,
                         child: TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (BuildContext context) =>
+                                    const SigninPage(),
+                              ),
+                            );
+                          },
                           child: Text(
                             "Sign in",
                             style: TextStyle(
