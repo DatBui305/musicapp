@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284674971325",
+    "project_id": "musicapp-3b725",
+    "storage_bucket": "musicapp-3b725.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284674971325:android:23c004329828e9b64ec9d4",
+        "android_client_info": {
+          "package_name": "com.example.spotifycleanarchitecture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsIwhGjTmJm_jwq9vz5nqn9cAi1Rdk6i4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
